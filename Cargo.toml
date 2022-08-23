@@ -1,5 +1,5 @@
 [package]
-name = "mmap-fixed"
+name = "mmap"
 version = "0.1.2"
 authors = [
   "Khang <khang06@users.noreply.github.com>",
@@ -12,11 +12,11 @@ readme = "README.md"
 description = """
 A library for dealing with memory-mapped I/O
 
-This is a fork of a fork of the original rust-mmap with updated dependencies and a
+This is a fork of a fork of a fork of the original rust-mmap with updated dependencies and a
 fix for the Windows version. This exists only because there are no other
 alternative crates for `MAP_FIXED` allocations.
 """
-repository = "https://github.com/khang06/rust-mmap-fixed-fixed"
+repository = "https://github.com/Adamaq01/rust-mmap"
 
 [target."cfg(unix)".dependencies]
 libc = "0.2"
